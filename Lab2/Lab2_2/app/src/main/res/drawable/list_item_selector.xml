@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Trạng thái khi item được nhấn (màu tạm thời khi chạm vào) -->
+    <item android:state_pressed="true"
+        android:drawable="@color/list_item_pressed_color" />
+
+    <!-- TRẠNG THÁI QUAN TRỌNG: Khi item được chọn/kích hoạt -->
+    <!-- ListView sẽ giữ trạng thái này cho item đã được click -->
+    <item android:state_activated="true"
+        android:drawable="@color/list_item_selected_color" />
+
+    <!-- Trạng thái mặc định (không có trạng thái nào ở trên) -->
+    <item android:drawable="@android:color/transparent" />
+
+</selector>
