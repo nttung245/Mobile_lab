@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">23521744_NguyenThanhTung</string>
+    <string name="power_connected">Power connected</string>
+    <string name="power_disconnected">Power disconnected</string>
+</resources>
